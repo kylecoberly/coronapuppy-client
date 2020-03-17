@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Coronapuppy</title>
+    <meta charset="utf-8">
+    <style>
+      label, input: { display: block; }
+    </style>
+  </head>
+  <body>
+    <h1>CoronaPuppy</h1>
+    <form method="POST" action="http://localhost:3000/dogs">
+      <label for="name">Name</label>
+      <input id="name" name="name" type="text" />
+
+      <label for="age">Age</label>
+      <input id="age" name="age" type="number" />
+
+      <input type="submit" value="Add this dog!" />
+    </form>
+  </body>
+</html>
